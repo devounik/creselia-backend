@@ -1,0 +1,1 @@
+#fastapi routers for different functionalities 
