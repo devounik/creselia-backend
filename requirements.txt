@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+langchain
+langchain_huggingface
+huggingface_hub
+python-dotenv
+pydantic
+redis
+firebase-admin
+requests
