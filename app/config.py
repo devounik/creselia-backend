@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import os
 from langchain_huggingface.llms import HuggingFaceEndpoint
 
+load_dotenv()
 
 hf_api_key = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
@@ -37,3 +38,6 @@ Please provide ONLY the MySQL query, with no explanations or context.
 
 """
 
+prod_db_url =os.getenv("PROD_DB_URL")
+
+SECRET_KEY = os.getenv("PROD_DB_SECRET_KEY")

@@ -9,3 +9,4 @@ pydantic
 redis
 firebase-admin
 requests
+psycopg2
