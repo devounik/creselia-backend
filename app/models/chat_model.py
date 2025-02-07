@@ -1,7 +1,7 @@
 #Defines chat model for database
 from sqlalchemy import Column,Text,String,ForeignKey,Integer,TIMESTAMP,text
 from sqlalchemy.orm import relationship
-from app.utils.db_utils import Base
+from app.__init__ import Base
 
 class ChatSession(Base):
   __tablename__ = 'chat_sessions'
